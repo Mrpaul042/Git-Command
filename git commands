@@ -1,3 +1,5 @@
+1s
+cd
 git init
 git remote add origin [gitLink]
 git remote -v
@@ -11,3 +13,6 @@ git push origin main
 in case for the first time
 git config user.name "someone"
 git config user.email "someone@someplace.com"
+
+if error:Git error-Ftal:remote origin already exists and how to fix it.
+git remote set-url origin
